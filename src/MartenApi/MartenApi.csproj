@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <NoWarn>CS8618</NoWarn>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.0" />
+    <PackageReference Include="autofac.extensions.dependencyinjection" Version="8.0.0" />
+    <PackageReference Include="marten" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="serilog" Version="2.12.0" />
+    <PackageReference Include="serilog.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="serilog.sinks.console" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>

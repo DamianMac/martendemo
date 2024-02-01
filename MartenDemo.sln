@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D754E5DC-52E6-4DA8-A31B-80C7BC5ADBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartenConsole", "src\MartenConsole\MartenConsole.csproj", "{59B72456-62F9-4E2E-A58D-615B53E59F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartenApi", "src\MartenApi\MartenApi.csproj", "{F9CEA071-AF42-44A3-A30F-CE0E741003C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B72456-62F9-4E2E-A58D-615B53E59F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B72456-62F9-4E2E-A58D-615B53E59F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B72456-62F9-4E2E-A58D-615B53E59F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B72456-62F9-4E2E-A58D-615B53E59F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CEA071-AF42-44A3-A30F-CE0E741003C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CEA071-AF42-44A3-A30F-CE0E741003C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CEA071-AF42-44A3-A30F-CE0E741003C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CEA071-AF42-44A3-A30F-CE0E741003C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676358BC-5D07-4A35-808F-E0EF6C2EB291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676358BC-5D07-4A35-808F-E0EF6C2EB291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676358BC-5D07-4A35-808F-E0EF6C2EB291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676358BC-5D07-4A35-808F-E0EF6C2EB291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59B72456-62F9-4E2E-A58D-615B53E59F71} = {D754E5DC-52E6-4DA8-A31B-80C7BC5ADBD1}
+		{F9CEA071-AF42-44A3-A30F-CE0E741003C5} = {D754E5DC-52E6-4DA8-A31B-80C7BC5ADBD1}
+		{676358BC-5D07-4A35-808F-E0EF6C2EB291} = {D754E5DC-52E6-4DA8-A31B-80C7BC5ADBD1}
+	EndGlobalSection
+EndGlobal
