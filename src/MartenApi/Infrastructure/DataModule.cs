@@ -24,8 +24,8 @@ public class DataModule : Module
                         _.AutoCreateSchemaObjects = AutoCreate.CreateOrUpdate;
                         _.Advanced.HiloSequenceDefaults.MaxLo = 50;
 
-                        // _.Schema.For<Customer>().Duplicate(s => s.Email, "varchar(200)");
-                        // _.Schema.For<Order>().Duplicate(s => s.CustomerId, "uuid");
+                        //_.Schema.For<Customer>().Duplicate(s => s.Email, "varchar(200)");
+                        //_.Schema.For<Order>().Duplicate(s => s.CustomerId, "uuid");
                     });
             }).As<IDocumentStore>().SingleInstance();
 

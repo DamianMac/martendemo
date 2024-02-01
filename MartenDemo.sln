@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartenConsole", "src\Marten
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartenApi", "src\MartenApi\MartenApi.csproj", "{F9CEA071-AF42-44A3-A30F-CE0E741003C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B7431A8C-34BB-4209-9ED9-A1F6CA6E95C3}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		cheatsheet.md = cheatsheet.md
+		textsearch.md = textsearch.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
