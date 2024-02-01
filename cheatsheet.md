@@ -1,5 +1,9 @@
 # PostGres JSON Cheat Sheet
 
+
+Source : https://medium.com/hackernoon/how-to-query-jsonb-beginner-sheet-cheat-4da3aa5082a3
+
+
 1. Select items by the value of a first level attribute (#1 way)
 
 You can query with the @> operator on metadata. This operator can compare partial JSON strings against a JSONB column. It’s the containment operator. For this case you may need to add a GIN index on metadata column.
